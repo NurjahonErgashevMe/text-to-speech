@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: var(--color-light);
+  background-color: var(--color-navy);
+}
+
+
+:root {
+  --color-light: rgb(255, 255, 252);
+  --color-navy: rgb(59, 9, 173);
+  --color-green:rgb(11, 218, 11);
+  --transition: all 0.3s ease;
+}
+
+/* Code for Firefox */
+::-moz-selection {
+  color: var(--color-navy);
+  background: var(--color-green);
+}
+
+::selection {
+  /* color: var(--color-light); */
+  background: var(--color-green);
+}

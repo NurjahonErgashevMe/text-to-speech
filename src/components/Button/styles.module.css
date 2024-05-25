@@ -1,0 +1,15 @@
+.button{
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    --tw-text-opacity: 1;
+    color: hsl(252 4% 44.8% / var(--tw-text-opacity));
+    transition: var(--transition);
+}
+
+.button:hover{
+    color: var(--color-light);
+    background-color: var(--color-navy);
+}
